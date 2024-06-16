@@ -2,5 +2,5 @@ stremlit
 Python
 numpy
 matplotlib
-sklearn
+sklearn.linear_model
 pickle-mixin
