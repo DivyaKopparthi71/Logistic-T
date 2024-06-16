@@ -40,7 +40,7 @@ df = user_input_features()
 st.subheader('user Input parameters')
 st.write(df)
 
-loaded_model=pickle.load(open("Titanic_model.SAV','rb'))
+loaded_model=pickle.load(open('Titanic_model.SAV','rb'))
  
 prediction=classifer.predict(df)
 prediction_proba=classifer.predict_proba(df)
