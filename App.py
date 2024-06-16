@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from scikit-learn.linear_model import LogisticRegression
+from scikit.linear_model import LogisticRegression
 
 st.title('Model deployment:Logistic Regression')
 st.sidebar.header('User Input Parameters')
